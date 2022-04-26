@@ -19,7 +19,7 @@ const CatList = ({ cats }) => {
 
 const mapStateToProps = (state) => {
   const { cats } = state;
-  return cats;
+  return { cats };
 };
 
 export default connect(mapStateToProps)(CatList);
